@@ -65,3 +65,31 @@ img{
 .clear {
   clear:both;
 }
+
+/* MEDIA QUERY */
+@media screen and (max-width:420px){
+
+.row{
+  width: 90%;
+}
+
+img{
+  width: 60%;
+  height: auto;
+}
+
+#lezioni .row > .left, #lezioni .row > .right{
+  width: 100%;
+  float: none;
+  padding-bottom: 50px;
+}
+
+#steps .row > .left,
+#steps .row > .central,
+#steps .row > .right{
+  width: 100%;
+  float: none;
+  padding-bottom: 50px;
+}
+
+}
